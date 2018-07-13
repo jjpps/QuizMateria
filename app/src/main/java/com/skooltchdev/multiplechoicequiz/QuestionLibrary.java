@@ -8,6 +8,8 @@ public class QuestionLibrary {
             "Resolvendo a expressão 1.624 – (2.863 – 1.503) + 196, encontramos como resultado o número?",
             "O maior animal existente no planeta é a baleia-azul, podendo a chegar, quando adulta a 120 Toneladas. O número destacado na informação indica?",
             "Quais são o antecessor e o sucessor ímpares do número 9009?"
+            "Determine o valor da expressão: 50 – (6 x 8 + 2).",
+            "Qual das divisões tem 0 como resultado?",
 
     };
 
@@ -16,12 +18,14 @@ public class QuestionLibrary {
             {"41", "82", "200","206"},
             {"41", "82", "406","206"},
             {"Quantidade", "Código", "Ordem","Medida"},
-            {"9.005 e 9.013", "9.007 e 9.011", "9.003 e 9.011","Medida"}
+            {"9.005 e 9.013", "9.007 e 9.011", "9.003 e 9.011","Medida"},
+            {"2","1","5","0"},
+            {"7 : 0","9 : 9","0 : 10","1 : 1"}
     };
 
 
 
-    private String mCorrectAnswers[] = {"200", "406", "Medida", "9.007 e 9.011"};
+    private String mCorrectAnswers[] = {"200", "406", "Medida", "9.007 e 9.011","0","0 : 10"};
 
 
 
