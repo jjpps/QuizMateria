@@ -10,6 +10,8 @@ public class QuestionLibrary {
             "Quais são o antecessor e o sucessor ímpares do número 9009?"
             "Determine o valor da expressão: 50 – (6 x 8 + 2).",
             "Qual das divisões tem 0 como resultado?",
+			"Qual é √2 ?",
+			"Qual o resultado correto da expressão 105 : 5 + 30",
 
     };
 
@@ -20,12 +22,14 @@ public class QuestionLibrary {
             {"Quantidade", "Código", "Ordem","Medida"},
             {"9.005 e 9.013", "9.007 e 9.011", "9.003 e 9.011","Medida"},
             {"2","1","5","0"},
-            {"7 : 0","9 : 9","0 : 10","1 : 1"}
+            {"7 : 0","9 : 9","0 : 10","1 : 1"},
+			{"5","4","6","7"},
+			{"50","49","61","51"}
     };
 
 
 
-    private String mCorrectAnswers[] = {"200", "406", "Medida", "9.007 e 9.011","0","0 : 10"};
+    private String mCorrectAnswers[] = {"200", "406", "Medida", "9.007 e 9.011","0","0 : 10","4","51"};
 
 
 
