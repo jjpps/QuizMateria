@@ -4,8 +4,7 @@
     <modules>
       <module fileurl="file://C:\Users\JP\Documents\Android\MultipleChoiceQuiz-master\MultipleChoiceQuiz-master\MultipleChoiceQuiz.iml" filepath="C:\Users\JP\Documents\Android\MultipleChoiceQuiz-master\MultipleChoiceQuiz-master\MultipleChoiceQuiz.iml" />
       <module fileurl="file://$PROJECT_DIR$/MultipleChoiceQuiz-master.iml" filepath="$PROJECT_DIR$/MultipleChoiceQuiz-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\JP\Documents\Android\MultipleChoiceQuiz-master\MultipleChoiceQuiz-master\app\app.iml" filepath="C:\Users\JP\Documents\Android\MultipleChoiceQuiz-master\MultipleChoiceQuiz-master\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../MultipleChoiceQuiz-master/MultipleChoiceQuiz-master/app/app.iml" filepath="$PROJECT_DIR$/../../MultipleChoiceQuiz-master/MultipleChoiceQuiz-master/app/app.iml" />
     </modules>
   </component>
 </project>

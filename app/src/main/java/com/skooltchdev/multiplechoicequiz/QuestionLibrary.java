@@ -7,7 +7,7 @@ public class QuestionLibrary {
             "O número adequado que se encaixa na operação ___ - 98 = 102 é?",
             "Resolvendo a expressão 1.624 – (2.863 – 1.503) + 196, encontramos como resultado o número?",
             "O maior animal existente no planeta é a baleia-azul, podendo a chegar, quando adulta a 120 Toneladas. O número destacado na informação indica?",
-            "Quais são o antecessor e o sucessor ímpares do número 9009?"
+            "Quais são o antecessor e o sucessor ímpares do número 9009 ? ",
             "Determine o valor da expressão: 50 – (6 x 8 + 2).",
             "Qual das divisões tem 0 como resultado?",
 			"Qual é √2 ?",
@@ -28,7 +28,8 @@ public class QuestionLibrary {
 			"A maioria dos estudos apontados para qual região como o local do surgimento dos primeros seres humanos?",
 			"O que caracteriza o período Noelítico?",
 			"Relatos, músicas, depoimentos são exemplos de fontes históricas?",
-			"Os antepassados dos seres humanos são chamados pelos cientistas de?"
+			"Os antepassados dos seres humanos são chamados pelos cientistas de?",
+			"FIM"
     };
 
 
@@ -57,13 +58,14 @@ public class QuestionLibrary {
 			{"África","América","Brasil","Canadá"},
 			{"Caça e coleta","Nômades","Pedra polida","Fogo"},
 			{"Visuais","Da cultura material","Orais","Escritas"},
-			{"Seres vivos","Hominídeos","Fósseis","Dinossauros"}
+			{"Seres vivos","Hominídeos","Fósseis","Dinossauros"},
+			{"FIM","FIM","FIM"}
     };
 
 
 
     private String mCorrectAnswers[] = {"200", "406", "Medida", "9.007 e 9.011","0","0 : 10","4","51","1.260","Fotossíntese","Ecossistema","Todos os descritos","Habitat e nicho ecológico",
-	"Das relações dos seres vivos entre si e com o meio ambiente","As opções B e C estão corretas","Verão","Colaterais","Greenwich","Norte e Sul","Movimento em torno do Sol","Pedra lascada","África","Pedra polida","Orais","Dinossauros"
+	"Das relações dos seres vivos entre si e com o meio ambiente","As opções B e C estão corretas","Verão","Colaterais","Greenwich","Norte e Sul","Movimento em torno do Sol","Pedra lascada","África","Pedra polida","Orais","Dinossauros","FIM"
 	
 	};
 

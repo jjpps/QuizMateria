@@ -16,7 +16,7 @@ public class QuizActivity extends AppCompatActivity {
     private Button mButtonChoice1;
     private Button mButtonChoice2;
     private Button mButtonChoice3;
-
+    private Button btnQ;
     private String mAnswer;
     private int mScore = 0;
     private int mQuestionNumber = 0;
@@ -31,8 +31,18 @@ public class QuizActivity extends AppCompatActivity {
         mButtonChoice1 = (Button)findViewById(R.id.choice1);
         mButtonChoice2 = (Button)findViewById(R.id.choice2);
         mButtonChoice3 = (Button)findViewById(R.id.choice3);
-
+        btnQ =(Button)findViewById(R.id.quit);
         updateQuestion();
+        btnQ.setText("Sair");
+
+
+        btnQ.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+                System.exit(0);
+            }
+        });
 
         //Start of Button Listener for Button1
         mButtonChoice1.setOnClickListener(new View.OnClickListener(){
@@ -45,10 +55,10 @@ public class QuizActivity extends AppCompatActivity {
                     updateScore(mScore);
                     updateQuestion();
                 //This line of code is optiona
-                    Toast.makeText(QuizActivity.this, "correct", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizActivity.this, "Correta", Toast.LENGTH_SHORT).show();
 
                 }else {
-                    Toast.makeText(QuizActivity.this, "wrong", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizActivity.this, "Errouuu", Toast.LENGTH_SHORT).show();
                     updateQuestion();
                 }
             }
@@ -67,10 +77,10 @@ public class QuizActivity extends AppCompatActivity {
                     updateScore(mScore);
                     updateQuestion();
                     //This line of code is optiona
-                    Toast.makeText(QuizActivity.this, "correct", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizActivity.this, "Correta", Toast.LENGTH_SHORT).show();
 
                 }else {
-                    Toast.makeText(QuizActivity.this, "wrong", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizActivity.this, "Errouuu", Toast.LENGTH_SHORT).show();
                     updateQuestion();
                 }
             }
@@ -90,10 +100,10 @@ public class QuizActivity extends AppCompatActivity {
                     updateScore(mScore);
                     updateQuestion();
                     //This line of code is optiona
-                    Toast.makeText(QuizActivity.this, "correct", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizActivity.this, "Correta", Toast.LENGTH_SHORT).show();
 
                 }else {
-                    Toast.makeText(QuizActivity.this, "wrong", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizActivity.this, "Errouuu", Toast.LENGTH_SHORT).show();
                     updateQuestion();
                 }
             }
